@@ -1,6 +1,9 @@
 .navbar{
     background-color: var(--color-grey-1);
-    padding: 1.75rem 0;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-items{

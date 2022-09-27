@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--color-grey-5);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
 :root{
     /*Colors*/
     --color-grey-opacity-1: rgba(33, 37, 41, 0.5);
