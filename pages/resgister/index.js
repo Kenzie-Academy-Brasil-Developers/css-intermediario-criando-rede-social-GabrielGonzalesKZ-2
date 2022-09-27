@@ -42,3 +42,12 @@ function buttonNavRegister() {
     });
 }
 buttonNavRegister()
+
+function buttonNavLogin() {
+    const btnNavLogin = document.querySelector(".button__nav__login");
+
+    btnNavLogin.addEventListener("click", () => {
+        window.location.assign("../login/index.html");
+    });
+}
+buttonNavLogin()
