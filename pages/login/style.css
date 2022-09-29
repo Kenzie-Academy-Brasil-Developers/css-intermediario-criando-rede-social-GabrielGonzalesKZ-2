@@ -1,0 +1,34 @@
+
+.form__div {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.form__login {
+    background: var(--color-white-fixed);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: var(--radius-1);
+    margin-top: 5%;
+    padding: 2%;
+    gap: 20px;
+}
+
+.inputs {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.register {
+    text-align: center;
+    cursor: pointer;
+}
+
+.register:hover {
+    font-weight: 500;
+}
