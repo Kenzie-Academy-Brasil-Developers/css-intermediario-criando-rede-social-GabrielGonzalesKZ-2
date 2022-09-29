@@ -25,15 +25,6 @@ function buttonP() {
 }
 buttonP()
 
-function buttonNavLogin() {
-    const btnNavLogin = document.querySelector(".button__nav__login");
-
-    btnNavLogin.addEventListener("click", () => {
-        window.location.assign("../../index.html");
-    });
-}
-buttonNavLogin()
-
 function buttonNavRegister() {
     const btnNavRegister = document.querySelector(".button__nav__register");
 
